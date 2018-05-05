@@ -51,6 +51,7 @@
 					<username>antoniogeroncio</username>
 					<password>posifaldevops01</password>
 					<repository>antoniogeroncio/devops</repository>
+					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
 			</plugin>
 		</plugins>

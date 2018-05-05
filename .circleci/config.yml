@@ -40,6 +40,7 @@ jobs:
       # run tests!
       - run: mvn integration-test
 
+
       # run build!
       - run: mvn package dockerfile:build
 
