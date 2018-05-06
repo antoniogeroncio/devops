@@ -48,10 +48,10 @@
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.0</version>
 				<configuration>
+					<dockerDirectory>docker</dockerDirectory>
 					<username>antoniogeroncio</username>
 					<password>posifaldevops01</password>
 					<repository>antoniogeroncio/devops</repository>
-					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
 			</plugin>
 		</plugins>
