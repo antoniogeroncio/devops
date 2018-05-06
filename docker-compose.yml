@@ -1,0 +1,8 @@
+version: '3'
+services:
+    binaria-app:
+        image: antoniogeroncio/devops
+    ngix-app:
+        image: nginx
+        ports:
+              - 8080:80
